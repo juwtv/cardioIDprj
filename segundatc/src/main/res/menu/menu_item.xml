@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_Home"
+            android:title="Home"
+            android:icon="@drawable/ic_cardioid"/>
+
+        <item
+            android:id="@+id/menu_ContentProviders"
+            android:title="@string/content_providers"
+            android:icon="@drawable/one"/>
+
+        <item
+            android:id="@+id/menu_BroadcastReceivers"
+            android:title="@string/broadcast_receivers"
+            android:icon="@drawable/two"/>
+
+        <item
+            android:id="@+id/menu_Intents"
+            android:title="@string/intents"
+            android:icon="@drawable/three"/>
+
+        <item
+            android:id="@+id/menu_BoundServices"
+            android:title="@string/bound_services"
+            android:icon="@drawable/four"/>
+
+        <item
+            android:id="@+id/menu_AIDL"
+            android:title="@string/aidl"
+            android:icon="@drawable/four"/>
+
+        <item
+            android:id="@+id/menu_Sockets"
+            android:title="@string/sockets"
+            android:icon="@drawable/five"/>
+
+    </group>
+
+</menu>

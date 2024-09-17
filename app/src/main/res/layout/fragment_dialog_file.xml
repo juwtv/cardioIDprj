@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".BLE.Fragment.DialogFileFragment">
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:circularflow_radiusInDP="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save File?"
+        android:textSize="18sp"
+        android:layout_marginVertical="8dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/fileName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:autofillHints="@string/prompt_email"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:backgroundTint="#e5e5e5"
+        android:drawableStart="@drawable/ic_file_24"
+        android:drawablePadding="8dp"
+        android:hint="File Name"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="8dp"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="visible"
+        android:textColorHint="#61000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File will be available in the documents folder."
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:layout_marginEnd="8dp"
+            android:text="Save"
+            android:textColor="#ECE9E9"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/darkBlue"
+            android:background="@drawable/button_shape"
+            android:layout_marginStart="8dp"
+            android:text="Discard"
+            android:textColor="#ECE9E9"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
+
+</FrameLayout>

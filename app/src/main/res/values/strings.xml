@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CardioID BLE</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_providers">Content Providers</string>
+    <string name="broadcast_receivers">Broadcast Receivers</string>
+    <string name="intents">Intents</string>
+    <string name="bound_services">Bound Services</string>
+    <string name="sockets">Sockets</string>
+
+    <!-- cardioid -->
+    <string name="main_text">Select one of the devices in the list or refresh if your device isn\'t in the list.</string>
+    <string name="no_devices">No Bluetooth devices nearby</string>
+
+    <string name="ble_state_connected">connected</string>
+    <string name="ble_state_disconnected">disconnected</string>
+    <string name="ble_movesense" translatable="false">MOVESENSE</string>
+    <string name="ble_cardio_wheel" translatable="false">CARDIO_WHEEL</string>
+
+    <string name="toast_ble_state">The bluetooth device is %1$s!</string>
+    <string name="home">Home</string>
+
+    <string name="prompt_email">Email</string>
+
+    <!-- Demo Buttons -->
+    <string name="waiting_for_auto_notification">Waiting for Auto Notification</string>
+    <string name="authentication">Authentication</string>
+    <string name="accept_driver">Accept Driver</string>
+    <string name="deny_driver">Deny Driver</string>
+    <string name="pop_ups">Pop-ups</string>
+    <string name="drowsiness">Drowsiness</string>
+    <string name="both_hands">Both Hands</string>
+    <string name="long_drive">Long Drive</string>
+    <string name="high_hrv">High HRV</string>
+    <string name="low_hrv">Low HRV</string>
+    <string name="ecg">ECG</string>
+    <string name="everything_ok">Everything Ok</string>
+    <string name="found_a_problem">Found a Problem</string>
+</resources>

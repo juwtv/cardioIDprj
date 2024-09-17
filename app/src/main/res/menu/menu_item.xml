@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <!-- android:icon="@drawable/ic_launcher" -->
+        <item
+            android:id="@+id/menu_Home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_cardioid"/>
+
+        <item
+            android:id="@+id/menu_ContentProviders"
+            android:title="@string/content_providers"
+            android:icon="@drawable/one"/>
+
+        <item
+            android:id="@+id/menu_BroadcastReceivers"
+            android:title="@string/broadcast_receivers"
+            android:icon="@drawable/two"/>
+
+        <item
+            android:id="@+id/menu_Intents"
+            android:title="@string/intents"
+            android:icon="@drawable/three"/>
+
+        <item
+            android:id="@+id/menu_BoundServices"
+            android:title="@string/bound_services"
+            android:icon="@drawable/four"/>
+
+        <item
+            android:id="@+id/menu_AIDL"
+            android:title="AIDL"
+            android:icon="@drawable/five"/>
+
+        <item
+            android:id="@+id/menu_Sockets"
+            android:title="@string/sockets"
+            android:icon="@drawable/six"/>
+
+    </group>
+
+    <item
+        android:id="@+id/menu_extra"
+        android:title="AndroidAuto Buttons">
+
+        <menu>
+            <item
+                android:id="@+id/menu_extra1"
+                android:title="Accept/Deny/Pop-Ups"
+                android:icon="@drawable/seven"/>
+
+        </menu>
+
+    </item>
+
+</menu>

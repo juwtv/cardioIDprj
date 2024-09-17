@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/menu_item_badge"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/notification_shape"
+        android:padding="4dp"
+        android:text="X"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:visibility="visible"/> <!-- Initially hidden -->
+
+</RelativeLayout>

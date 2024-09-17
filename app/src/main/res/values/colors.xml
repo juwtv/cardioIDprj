@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="cardioID_blue">#273943</color>
+    <color name="cardioID_yellow">#F5C700</color>
+    <color name="cardioID_red">#F32B41</color>
+    <color name="cardioID_c1">#A7BED3</color>
+    <color name="cardioID_c2">#FFFFFF</color>
+    <color name="cardioID_c3">#FCFCFC</color>
+    <color name="cardioID_c4">#A5A5A5</color>
+    <color name="cardioID_c5">#C6E2E9</color>
+    <color name="cardioID_c6">#FFF7F8</color>
+    <color name="cardioID_c7">#F2F2F2</color>
+    <color name="cardioID_c8">#3B3B3B</color>
+
+    <!-- app cardioid -->
+    <color name="colorPrimary">#E77535</color>
+    <color name="colorPrimaryDark">#484848</color>
+    <color name="colorAccent">#EA8823</color>
+    <color name="opaqueColor">#96ffffff</color>
+    <color name="gray">#D5D5D5</color>
+    <color name="darkBlue">#273943</color>
+    <color name="pink">#ED2626</color>
+    <color name="transparentWhite">#33FFFFFF</color>
+    <color name="transparent">#FFFFFF</color>
+
+</resources>

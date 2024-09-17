@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="windowSeconds">2</integer>
+    <integer name="sample_rate_movesense">512</integer>
+    <integer name="sample_rate_cardio_wheel">1000</integer>
+</resources>

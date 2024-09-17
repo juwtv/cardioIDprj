@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment"
+    android:background="@color/cardioID_c3">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="----- Received Messages -----"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--android:layout_marginTop="?attr/actionBarSize"-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardioID_c3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/contentProviderFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.example.segundatc.fragments.contentProvider.ContentProviderReceiverFragment"
+                    tools:layout="@layout/fragment_content_provider_receiver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_chainStyle="spread"/>
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/broadcastReceiverFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:name="com.example.segundatc.fragments.broadcastReceiver.BroadcastReceiverReceiverFragment"
+                    tools:layout="@layout/fragment_broadcast_receiver_receiver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_chainStyle="spread"/>
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/intentReceiverFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.example.segundatc.fragments.intent.IntentsReceiverFragment"
+                    tools:layout="@layout/fragment_intents_receiver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_chainStyle="spread"/>
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/boundServiceFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.example.segundatc.fragments.boundService.BoundServicesReceiverFragment"
+                    tools:layout="@layout/fragment_bound_services_receiver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_chainStyle="spread"/>
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/aidlServiceFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.example.segundatc.fragments.aidl.AIDLReceiverFragment"
+                    tools:layout="@layout/fragment_aidl_receiver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_chainStyle="spread"/>
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/socketFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.example.segundatc.fragments.socket.SocketReceiverFragment"
+                    tools:layout="@layout/fragment_socket_receiver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_chainStyle="spread"/>
+            </LinearLayout>
+        </ScrollView>
+</FrameLayout>

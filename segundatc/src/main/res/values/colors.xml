@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardioID_blue">#273943</color>
+    <color name="cardioID_yellow">#F5C700</color>
+    <color name="cardioID_red">#F32B41</color>
+    <color name="cardioID_c1">#A7BED3</color>
+    <color name="cardioID_c2">#FFFFFF</color>
+    <color name="cardioID_c3">#FCFCFC</color>
+    <color name="cardioID_c4">#A5A5A5</color>
+    <color name="cardioID_c5">#C6E2E9</color>
+    <color name="cardioID_c6">#FFF7F8</color>
+    <color name="cardioID_c7">#F2F2F2</color>
+    <color name="cardioID_c8">#3B3B3B</color>
+</resources>

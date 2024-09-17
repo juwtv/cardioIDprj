@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/cardioID_blue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_cardioid"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="16dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardioID_c3"
+        android:layout_marginLeft="16dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Testes de comunicação entre apps"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="@color/cardioID_c3"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp">
+    </TextView>
+
+</LinearLayout>
